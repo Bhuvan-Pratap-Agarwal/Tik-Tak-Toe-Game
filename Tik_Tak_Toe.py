@@ -1,3 +1,4 @@
+#This is the code for tik-tak-toe game. This code has a multiple game function
 import os
 # --------- Global Variables -----------
 
@@ -209,7 +210,7 @@ def another_game():
     if (k == 'Y'):
         h += 1
         while k:
-            os.system('python "D:\Coding\code_files\Python\Python_Projects/Tik_Tak_Toe.py"')
+            os.system('python "D:\Coding\code_files\Python\Python_Projects/Tik_Tak_Toe.py"') #this can we changes according to your storage location
             another_game()
     else:
         print("Total games played = ",h)
